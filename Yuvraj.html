@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yuvraj Singh | Software Engineer Portfolio</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Icons -->
+<script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="Yuvraj.css" />
+</head>
+
+<body>
+
+<!-- Background particles -->
+<div id="particles-js"></div>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <div class="logo">YS</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="themeToggle">🌙</button>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+    <div class="hero-content" data-aos="fade-right">
+
+        <h1>
+            Hi, I'm <span>Yuvraj Singh</span>
+        </h1>
+
+        <h2 class="typing-text"></h2>
+
+        <p>
+            I design and build scalable enterprise systems,
+            microservices architectures, and modern web applications
+            with performance and clean code.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn-outline">Download Resume</a>
+        </div>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </div>
+
+    <div class="hero-image" data-aos="fade-left">
+        <div class="profile-card">
+            <img src="https://via.placeholder.com/300" alt="profile">
+        </div>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-aos="fade-up">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+        <p>
+            Senior Software Engineer specializing in backend systems,
+            microservices.
+        </p>
+
+        <p>
+            Passionate about system design, scalability, and solving
+            real-world engineering problems.
+        </p>
+    </div>
+
+</section>
+
+<!-- STATS -->
+<section class="stats">
+
+    <div class="stat-card">
+        <h3 class="counter" data-target="5">0</h3>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat-card">
+        <h3 class="counter" data-target="20">0</h3>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h3 class="counter" data-target="10">0</h3>
+        <p>Technologies</p>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-up">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill">Java</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">Microservices</div>
+        <div class="skill">React</div>
+        <div class="skill">AWS</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">SQL</div>
+
+    </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" data-aos="fade-up">
+
+    <h2 class="section-title">Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Senior Software Engineer</h3>
+            <p>Newgen Software Technologies</p>
+            <span>2023 - Present</span>
+        </div>
+
+        <!-- <div class="timeline-item">
+            <h3>Software Engineer</h3>
+            <p>Enterprise Systems Development</p>
+            <span>2021 - 2023</span>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" data-aos="fade-up">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Workflow Automation System</h3>
+            <p>Enterprise-grade workflow automation platform.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Microservices Platform</h3>
+            <p>Scalable distributed microservices architecture.</p>
+        </div>
+
+        <!-- <div class="project-card">
+            <h3>Cloud Migration System</h3>
+            <p>Legacy to cloud transformation system.</p>
+        </div> -->
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" data-aos="fade-up">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card contact">
+
+        <p>Email: your-email@example.com</p>
+        <p>Location: India</p>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Yuvraj Singh | All Rights Reserved
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="Yuvraj.js"></script>
+
+</body>
+</html>
